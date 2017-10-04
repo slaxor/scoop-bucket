@@ -1,0 +1,13 @@
+﻿{
+    "version":  "4.8.19",
+    "license":  "GPL",
+    "url":  "https://sourceforge.net/projects/mcwin32/files/mcwin32-build204-bin.zip",
+    "depends":  "",
+    "homepage":  "https://midnight-commander.org",
+    "hash":  "847912149fc36149f37ac0013cd34a147877bb6e94ba8cbc76578702b9b2ab82",
+    "bin":  [
+	    "mc.exe",
+	    "busybox.exe",
+	    "file.exe"
+    ]
+}

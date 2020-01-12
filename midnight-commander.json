@@ -1,10 +1,10 @@
 ﻿{
     "version":  "4.8.19",
     "license":  "GPL",
-    "url":  "https://sourceforge.net/projects/mcwin32/files/mcwin32-build204-bin.zip",
-    "depends":  "",
+    "url":  "https://sourceforge.net/projects/mcwin32/files/mcwin32-build213-setup.exe",
+    "depends":  "AB047204856D2BC0C5190224D771651D66C6F17A242169091747B986F97A04A9",
     "homepage":  "https://midnight-commander.org",
-    "hash":  "847912149fc36149f37ac0013cd34a147877bb6e94ba8cbc76578702b9b2ab82",
+    "hash":  "",
     "bin":  [
 	    "mc.exe",
 	    "busybox.exe",

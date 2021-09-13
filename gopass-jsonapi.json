@@ -1,1 +1,27 @@
-
+{
+    "version":  "1.11.1",
+    "url":  "https://github.com/gopasspw/gopass-jsonapi.git",
+    "homepage":  "https://www.gopass.pw",
+    "hash":  "",
+    "bin":  "gopass-jsonapi.exe",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/gopasspw/gopass-jsonapi/releases/download/v1.11.1/gopass-jsonapi-1.11.1-windows-amd64.zip",
+            "hash": "fe49b887aab73a3c56c47e38f83001b1ce61b2c3c67dd701bc35131b11c4482e"
+        }
+    },
+    "checkver": {
+        "github": "https://github.com/gopasspw/gopass-"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/gopasspw/gopass-jsonapi/releases/download/v$version/gopass-jsonapi-$version-windows-amd64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/gopass_$version_SHA256SUMS"
+        }
+    }
+}
